@@ -11,7 +11,7 @@ Wondering why you should learn to create a Discord bot?
 
 * **Personal Project**: Show it off as your personal projects on resume or LinkedIn to demonstrate your skills.
 
-* **Freelance**: Monetize your skills by creating custom bots for people who cannot code on [Fiverr](https://fiverr.com), [Upwork](https://www.upwork.com), [Freelancer](https://www.freelancer.com), etc.
+* **Freelance**: Monetize your skills by creating custom bots for people who cannot code on [Fiverr](https://www.fiverr.com), [Upwork](https://www.upwork.com), [Freelancer](https://www.freelancer.com), etc.
 
 * **Keep Practicing**: Coding is improved only when you keep practicing to write code and solve problems.
 
