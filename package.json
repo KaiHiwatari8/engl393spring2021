@@ -1,0 +1,19 @@
+{
+  "name": "engl393-instructions",
+  "version": "1.0.0",
+  "description": "ENGL 393 Instructions assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maybejay/engl393ins.git"
+  },
+  "author": "Jay Prajapati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maybejay/engl393ins/issues"
+  },
+  "homepage": "https://github.com/maybejay/engl393ins#readme"
+}
