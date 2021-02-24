@@ -19,3 +19,17 @@ Wondering why you should learn to create a Discord bot?
 * **Keep Practicing**: <br>Coding is improved only when you keep practicing to write code and solve problems.
 
 * **Keep Learning**: <br>Keep your brain active by learning a new framework.
+
+## Before you start
+
+Before you start, following are the resources assumed you have gathered before diving into instructions.
+
+* **Text Editor**: <br>A text editor of your choice such as [Visual Studio Code](https://code.visualstudio.com/), [Sublime Text 3](https://www.sublimetext.com/), and [Atom](https://atom.io/).
+
+* **A Discord Account**: <br>An active Discord account is required. If you do not have one, click [here](https://discord.com/register).
+
+* **Beginners' JavaScript Knowledge**: <br>Basic JavaScript familiarity including Lambda functions and Promises. In case you are not familiar with JavaScript:
+  * **YouTube tutorial**: A [YouTube JavaScript](https://www.youtube.com/watch?v=PkZNo7MFNFg) tutorial by FreeCodeCamp
+  * **W2Schools tutorial**: A textual [W3Schools Javascript](https://www.w3schools.com/js/default.asp) tutorial.
+  * **Arrow Functions**: A [Mozilla Developers Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) about Arrow functions.
+  * **Promises**: A [Mozilla Developers Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) about Promises.
