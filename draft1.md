@@ -1,4 +1,6 @@
-# Create your own custom Discord Bot<img src="https://discord.com/assets/f8389ca1a741a115313bede9ac02e2c0.svg" height=50 style="vertical-align: bottom">
+# Create your own custom Discord Bot
+
+<center><img src="https://discord.com/assets/bb408e0343ddedc0967f246f7e89cebf.svg" height=100 style="vertical-align: bottom"></center>
 
 ## Introduction
 
