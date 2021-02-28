@@ -1,7 +1,7 @@
 # Create your own custom Discord Bot
 
 <p align="center">
-<img align="center" src="https://discord.com/assets/bb408e0343ddedc0967f246f7e89cebf.svg" height=100 style="vertical-align: bottom"></p>
+<img src="https://discord.com/assets/bb408e0343ddedc0967f246f7e89cebf.svg" height=100 style="vertical-align: bottom"></p>
 
 ## Introduction
 
@@ -30,6 +30,6 @@ Before you start, following are the resources assumed you have gathered before d
 
 * **Beginners' JavaScript Knowledge**: <br>Basic JavaScript familiarity including Lambda functions and Promises. In case you are not familiar with JavaScript:
   * **YouTube tutorial**: A [YouTube JavaScript](https://www.youtube.com/watch?v=PkZNo7MFNFg) tutorial by FreeCodeCamp
-  * **W2Schools tutorial**: A textual [W3Schools Javascript](https://www.w3schools.com/js/default.asp) tutorial.
+  * **W2Schools tutorial**: A [W3Schools Javascript](https://www.w3schools.com/js/default.asp) tutorial.
   * **Arrow Functions**: A [Mozilla Developers Doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) about Arrow functions.
   * **Promises**: A [Mozilla Developers Doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) about Promises.
