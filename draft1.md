@@ -1,4 +1,4 @@
-# Create your own custom Discord Bot
+# Create your own custom Reaction Role Discord Bot
 
 <p align="center">
 <img src="https://discord.com/assets/bb408e0343ddedc0967f246f7e89cebf.svg" height=100 style="vertical-align: bottom"></p>
