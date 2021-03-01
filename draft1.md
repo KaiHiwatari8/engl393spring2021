@@ -1,4 +1,4 @@
-# Create your own custom Reaction Role Discord Bot
+# Create your own custom Discord Bot
 
 <p align="center">
 <img src="https://discord.com/assets/bb408e0343ddedc0967f246f7e89cebf.svg" height=100 style="vertical-align: bottom"></p>
@@ -6,6 +6,8 @@
 ## Introduction
 
 If you manage or own a Discord guild with numerous members, you probably use bots to automate common functions such as custom welcome message, reaction roles, YouTube notifications, and much more. Even if you have enough funds, you would probably not want to spend them on having custom bots built for your guild. So, use existing bots? You can but you do not have to unless you do not have programming background. Nevertheless, you can learn to program for free on YouTube anytime. [FreeCodeCamp](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ) is what I would personally recommend.
+
+This tutorial intends to
 
 Wondering why you should learn to create a Discord bot?
 * **Custom bot branding**: <br>You can get rid of third-party bots that need you to vote for them to keep using their bot.
@@ -28,7 +30,7 @@ Before you start, following are the resources assumed you have gathered before d
 
 * **A Discord Account**: <br>An active Discord account is required. If you do not have one, click [here](https://discord.com/register).
 
-* **Beginners' JavaScript Knowledge**: <br>Basic JavaScript familiarity including Lambda functions and Promises. In case you are not familiar with JavaScript:
+* **Beginners' JavaScript Knowledge**: <br>Basic JavaScript familiarity including Arrow functions and Promises. In case you are not familiar with JavaScript:
   * **YouTube tutorial**: A [YouTube JavaScript](https://www.youtube.com/watch?v=PkZNo7MFNFg) tutorial by FreeCodeCamp
   * **W2Schools tutorial**: A [W3Schools Javascript](https://www.w3schools.com/js/default.asp) tutorial.
   * **Arrow Functions**: A [Mozilla Developers Doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) about Arrow functions.

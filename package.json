@@ -4,11 +4,12 @@
   "description": "ENGL 393 Instructions assignment",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "git": "git add . && git commit -m 'a' && git push"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maybejay/engl393ins.git"
+    "url": "git+https://github.com/maybejay/engl393spring2021.git"
   },
   "author": "Jay Prajapati",
   "license": "ISC",
