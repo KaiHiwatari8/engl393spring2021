@@ -35,3 +35,26 @@ Before you start, following are the resources assumed you have gathered before d
   * **W2Schools tutorial**: A [W3Schools Javascript](https://www.w3schools.com/js/default.asp) tutorial.
   * **Arrow Functions**: A [Mozilla Developers Doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) about Arrow functions.
   * **Promises**: A [Mozilla Developers Doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) about Promises.
+
+
+## Create a Reaction Role bot
+
+### A. Setup Discord Developers' Portal
+1. Go to Discord's [Developers Portal](https://discord.com/developers/) and log in with your Discord credentials if asked to.
+
+2. Click on `New Application` on the top right corner.
+
+3. Give your app a name, say Jarvis.
+<br>Now, you should be on the `General Information` page on the dashboard.
+
+4. _Optional_: Give your app an icon and a description.
+
+5. Now, click on `Bot` from the left pane.
+
+6. Click on `Add Bot`. When prompted to confirm, click on `Yes, do it!`.
+
+7. Now, give your bot a username.
+
+8. Give your bot an icon to make it more attractive.
+
+  **Note:** If you want other people to add your bot to their servers, enable the `Public Bot` option.
