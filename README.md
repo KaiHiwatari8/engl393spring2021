@@ -40,6 +40,8 @@ Before you start, following are the resources assumed you have gathered before d
 ## Create a Reaction Role bot
 
 ### A. Setup Discord Developers' Portal
+
+You will need to access Discord's Developer's portal to develop a bot. Do it with the following steps:
 1. Go to Discord's [Developers Portal](https://discord.com/developers/) and log in with your Discord credentials if asked to.
 
 2. Click on `New Application` on the top right corner.
@@ -49,12 +51,37 @@ Before you start, following are the resources assumed you have gathered before d
 
 4. _Optional_: Give your app an icon and a description.
 
-5. Now, click on `Bot` from the left pane.
+5. Click on `Bot` from the left pane.
 
 6. Click on `Add Bot`. When prompted to confirm, click on `Yes, do it!`.
 
-7. Now, give your bot a username.
+7. Give your bot a username.
 
-8. Give your bot an icon to make it more attractive.
+8. _Optional_: Give your bot an icon to make it more attractive.
 
   **Note:** If you want other people to add your bot to their servers, enable the `Public Bot` option.
+
+### B. Setup Development Environment
+
+Now that we created a bot application, we will program our bot to have it our desired function, reaction roles.
+
+1. Install `node.js` and `npm` package manager for JavaScript projects. `npm` is served in `Node.js` framework. Install `Node.js` from [here](https://nodejs.org/en/).
+
+  * Run `node -v` to confirm that `Node.js` has been installed successfully.
+
+  * Run `npm -v` to confirm that `npm` has been installed successfully.
+
+2. Create an `npm` project.
+
+  * Open a specific directory in terminal where you would like develop your bot.
+
+  * Run `npm init` to a initialize a JavaScript project.
+
+    Answer a series of questions to initialize your project.<br>
+    It is encouraged to
+
+2. Install the `discord.js` framework. This framework provides libraries that helps to develop apps for Discord.
+
+  * Run `npm install discord.js`.
+
+### C. Program a bot
