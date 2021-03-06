@@ -60,6 +60,10 @@ You will need to access Discord's Developer's portal to develop a bot. Do it wit
 
 8. _Optional_: Give your bot an icon to make it more attractive.
 
+9. Under the `Token`, clink `Copy` to copy the token to be used later.
+
+10. Go to `OAuth2` from the left pane. Under `Scopes`, check the `bot` scope. This will create an invitation link below the `scopes`. Click on this invitation link to invite the bot to your Discord guild.
+
   **Note:** If you want other people to add your bot to their servers, enable the `Public Bot` option.
 
 ### B. Setup Development Environment
@@ -91,11 +95,11 @@ Now that we created a bot application, we will program our bot to have it our de
 
   * Scroll down to locate `Developer Mode` under `ADVANCED` category and enable it.
 
-### C. Program a bot
+### C. Program the bot
 
-Now is the time to program out bot. In the `npm init` step, if you have `index.js` as `entry point`, then create a `index.js` file in the current directory. If you have chosen some other file, create a new `.js` with that name. Now, the tutorial will guide you line-by-line through the code.
+Now is the time to program out bot. In the `npm init` step, if you have `index.js` as `entry point`, then create a `index.js` file in the current directory. If you have chosen some other file, create a new `.js` with that name. Now, the tutorial will guide you line-by-line through the code, assuming the file is named `index.js`.
 
-1. Open the `.js` in a text editor.
+1. Open `index.js` in a text editor.
 
 2. Import the `discord` framework.
 
@@ -116,3 +120,19 @@ Now that we have a bot initialized, we can add behaviors to our bot. Every actio
         }
     });
     ```
+
+5. Add the copied token in **Part A** to `index.js`.
+
+    `const BOT_TOKEN = "paste the copied bot token here"`
+
+6. Let the bot login using that token.
+
+    `bot.login(BOT_TOKEN)`
+
+7. Run `index.js` to start the bot by typing the following command in the terminal.
+
+    `node index.js`
+
+    You should see that the bot is now online in the Discord guild.
+
+### D. Invite the bot
