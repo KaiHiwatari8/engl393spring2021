@@ -201,4 +201,4 @@ It is time to add the main feature of our bot, _Reaction Roles_. For this, the b
     ```
     * You can listen to the `remove` event and use `guildMember.remove` to remove the role.
 
-The final bot script should look something like this in this [file]().
+The final bot script should look something like this in this [file](./index,js).
