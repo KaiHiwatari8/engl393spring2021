@@ -30,9 +30,10 @@ Before you start, following are the resources assumed you have gathered before d
 
 * **A Discord Account**: <br>An active Discord account is required. If you do not have one, click [here](https://discord.com/register).
 
-* **Beginners' JavaScript Knowledge**: <br>Basic JavaScript familiarity including Arrow functions and Promises. In case you are not familiar with JavaScript:
+* **Beginners' JavaScript Knowledge**: <br>Basic JavaScript familiarity including events, Arrow functions and Promises. In case you are not familiar with JavaScript:
   * **YouTube tutorial**: A [YouTube JavaScript](https://www.youtube.com/watch?v=PkZNo7MFNFg) tutorial by FreeCodeCamp
   * **W2Schools tutorial**: A [W3Schools Javascript](https://www.w3schools.com/js/default.asp) tutorial.
+  * **Events**: A [Mozilla Developers Doc](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events) about events.
   * **Arrow Functions**: A [Mozilla Developers Doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) about Arrow functions.
   * **Promises**: A [Mozilla Developers Doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) about Promises.
 
@@ -77,11 +78,34 @@ Now that we created a bot application, we will program our bot to have it our de
 
   * Run `npm init` to a initialize a JavaScript project.
 
-    Answer a series of questions to initialize your project.<br>
-    It is encouraged to
+    Answer a series of questions to initialize your project. You can also keep pressing `enter` to accept the default values.
 
 2. Install the `discord.js` framework. This framework provides libraries that helps to develop apps for Discord.
 
   * Run `npm install discord.js`.
 
 ### C. Program a bot
+
+Now is the time to program out bot. In the `npm init` step, if you have `index.js` as `entry point`, then create a `index.js` file in the current directory. If you have chosen some other file, create a new `.js` with that name. Now, the tutorial will guide you line-by-line through the code.
+
+1. Open the `.js` in a text editor.
+
+2. Import the `discord` framework.
+
+    `const discord = require("discord.js")`
+
+3. Instantiate a Discord client that will be our bot.
+
+    `const bot = new Discord.Client()`
+
+Now that we have a bot initialized, we can add behaviors to our bot. Every action on Discord emits events such as a new message, a new reaction, a new guild member, etc. The bot listens to those events to reciprocate programmed behaviors.
+
+4. Add an event listener to our bot to listen to such events. For testing purpose, listen to a new message. If the new message contains `"ping"`, the bot will reply with `"pong"` in that channel using adding a handler function for that event.
+
+    ```
+    client.on("message", (message) => {
+        if (message.content === "ping") {
+          message.reply("pong");
+        }
+    });
+    ```
