@@ -133,6 +133,46 @@ Now that we have a bot initialized, we can add behaviors to our bot. Every actio
 
     `node index.js`
 
-    You should see that the bot is now online in the Discord guild.
+You should see that the bot is now online in the Discord guild. Message `ping` on that server and the bot will reply with `pong`.
 
-### D. Invite the bot
+### D. Add Reaction Role feature to the bot
+
+It is time to add the main feature of our bot, _Reaction Roles_. For this, the bot will listen to the reactions being added to a particular message in a channel of the server. All functions in `Discord.js` works with `Promises`. So, the code will use `then()` to nest callback functions.
+
+1. Grasp the channel in which the message to be used for reaction roles is present.
+
+    * Right-click on the channel and click on `Copy ID` at the bottom of the menu.
+
+    * Fetch the channel from the guild using the bot. Then, feed the fetched channel into the callback function, the callback functions are conventionally defined as arrow functions. But if you want to use any function already defined, just pass the function. Here, an arrow function will used as a callback function.
+
+    ```
+    client.channels.fetch("paste the copied channel ID here").then((channel) => {
+        /* callback function body */
+    });
+    ```
+
+2. Grasp the message in the grasped channel.
+
+    * Right-click on the message and click on `Copy ID` at the bottom of the menu.
+
+    * Fetch the message from the channel using the bot. Then, feed the fetched message into another callback function. This code would make the body of the callback in the step D.1.
+
+    ```
+    channel.messages.fetch("paste the copied message ID here").then((message) => {
+      /* callback function body */
+    });
+    ```
+
+3. Create a [reaction collector](https://discord.js.org/#/docs/main/stable/class/ReactionCollector) for the message. The reaction collector will collect all the reactions that added to a message and emit events.
+
+    * Create a filter that would filter users who have reacted based on if they are bots or not.
+
+      `const filter = (reaction, user) => !user.bot`
+
+    * Create a reaction collector attached to the message in D.2 using the filter above.
+
+    ```
+    const collector = message.createReactionCollector(filter)
+    ```
+
+4. 
