@@ -80,9 +80,16 @@ Now that we created a bot application, we will program our bot to have it our de
 
     Answer a series of questions to initialize your project. You can also keep pressing `enter` to accept the default values.
 
-2. Install the `discord.js` framework. This framework provides libraries that helps to develop apps for Discord.
+3. Install the `discord.js` framework. This framework provides libraries that helps to develop apps for Discord.
 
   * Run `npm install discord.js`.
+
+
+4. Enable `Developer Mode` in Discord.
+
+  * Go to `User Settings -> Appearance` in the Discord App.
+
+  * Scroll down to locate `Developer Mode` under `ADVANCED` category and enable it.
 
 ### C. Program a bot
 
@@ -98,7 +105,7 @@ Now is the time to program out bot. In the `npm init` step, if you have `index.j
 
     `const bot = new Discord.Client()`
 
-Now that we have a bot initialized, we can add behaviors to our bot. Every action on Discord emits events such as a new message, a new reaction, a new guild member, etc. The bot listens to those events to reciprocate programmed behaviors.
+Now that we have a bot initialized, we can add behaviors to our bot. Every action on Discord emits events such as a new message, a new reaction, a new guild member, etc. The bot listens to those events to reciprocate programmed behaviors. A complete list of events can be found [here](https://discord.js.org/#/docs/main/stable/class/Client).
 
 4. Add an event listener to our bot to listen to such events. For testing purpose, listen to a new message. If the new message contains `"ping"`, the bot will reply with `"pong"` in that channel using adding a handler function for that event.
 
