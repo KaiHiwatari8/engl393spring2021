@@ -155,10 +155,11 @@ It is time to add the main feature of our bot, _Reaction Roles_. For this, the b
 
     * Right-click on the message and click on `Copy ID` at the bottom of the menu.
 
-    * Fetch the message from the channel using the bot. Then, feed the fetched message into another callback function. This code would make the body of the callback in the step D.1.
+    * Fetch the message from the channel using the bot. Then, feed the fetched message into another callback function. This code would make the body of the callback in the step D.1. Then, extract the guild of the message to be used later.
 
     ```
     channel.messages.fetch("paste the copied message ID here").then((message) => {
+      const { guild } = message;
       /* callback function body */
     });
     ```
@@ -172,7 +173,32 @@ It is time to add the main feature of our bot, _Reaction Roles_. For this, the b
     * Create a reaction collector attached to the message in D.2 using the filter above.
 
     ```
-    const collector = message.createReactionCollector(filter)
+    const collector = message.createReactionCollector(filter, { dispose: true});
     ```
 
-4. 
+4. Give a role to the user by the reaction collected by the collector.
+
+    * Add an event handler to the `collect` event emitted whenever a message is reacted to.
+
+      ```
+      collector.on("collect", (reaction, user) => {
+        /* handler function body */
+      })
+      ```
+
+    * Obtain the role ID of the role to be assigned. Go to `Server Settings -> Roles`, right click on the role and click `Copy ID`.
+
+    * Obtain the [guildMember](https://discord.js.org/#/docs/main/stable/class/GuildMember) of the user that reacted to the message. Then, fetch the role by its ID from the guild. Add this role to the guildUser.
+
+    ```
+    guild.members.fetch(user.id).then((guildMember) => {
+        guild.roles.fetch("the role ID").then((role) => {
+            guildMember.add(role).then((success) => {
+              console.log("role assigned successfully");
+            });
+        });
+    });
+    ```
+    * You can listen to the `remove` event and use `guildMember.remove` to remove the role.
+
+The final bot script should look something like this in this [file]().
