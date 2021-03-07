@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/maybejay/engl393ins/issues"
   },
-  "homepage": "https://github.com/maybejay/engl393ins#readme"
+  "homepage": "https://github.com/maybejay/engl393ins#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
 }
