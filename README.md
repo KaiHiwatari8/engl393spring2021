@@ -72,9 +72,9 @@ Now that we created a bot application, we will program our bot to have it our de
 
 1. Install `node.js` and `npm` package manager for JavaScript projects. `npm` is served in `Node.js` framework. Install `Node.js` from [here](https://nodejs.org/en/).
 
-  * Run `node -v` to confirm that `Node.js` has been installed successfully.
+  * Run `node -v` in terminal to confirm that `Node.js` has been installed successfully.
 
-  * Run `npm -v` to confirm that `npm` has been installed successfully.
+  * Run `npm -v` in terminal to confirm that `npm` has been installed successfully.
 
 2. Create an `npm` project.
 
