@@ -62,7 +62,21 @@ You will need to access Discord's Developer's portal to develop a bot. Do it wit
 
 9. Under the `Token`, clink `Copy` to copy the token to be used later.
 
-10. Go to `OAuth2` from the left pane. Under `Scopes`, check the `bot` scope. This will create an invitation link below the `scopes`. Click on this invitation link to invite the bot to your Discord guild.
+10. Go to `OAuth2` from the left pane. Under `Scopes`, check the `bot` scope. Then, scroll and select one set of permissions from the following:
+
+	Either
+	
+	* Administrator
+	
+	Or
+	
+	* Read Message History
+	
+	* Manage Roles
+	
+	* View Channels
+	
+	This will create an invitation link below the `scopes`. Click on this invitation link to invite the bot to your Discord guild.
 
   **Note:** If you want other people to add your bot to their servers, enable the `Public Bot` option.
 
@@ -82,7 +96,7 @@ Now that we created a bot application, we will program our bot to have it our de
 
   * Run `npm init` to a initialize a JavaScript project.
 
-	Answer a series of questions to initialize your project. You can also keep pressing `enter` to accept the default values.
+	Answer a series of questions to initialize your project. You can also keep pressing `enter` to accept the default values given in the parentheses.
 
 3. Install the `discord.js` framework. This framework provides libraries that helps to develop apps for Discord.
 
