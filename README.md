@@ -28,7 +28,7 @@ Before you start, following are the resources assumed you have gathered before d
 
 * **Text Editor**: <br>A text editor of your choice such as [Visual Studio Code](https://code.visualstudio.com/), [Sublime Text 3](https://www.sublimetext.com/), and [Atom](https://atom.io/).
 
-* **A Discord Account**: <br>An active Discord account is required. If you do not have one, click [here](https://discord.com/register).
+* **A Discord Account**: <br>An active Discord account is required. If you do not have one, click [here](https://discord.com/register) to create one.
 
 * **Beginners' JavaScript Knowledge**: <br>Basic JavaScript familiarity including events, Arrow functions and Promises. In case you are not familiar with JavaScript:
   * **YouTube tutorial**: A [YouTube JavaScript](https://www.youtube.com/watch?v=PkZNo7MFNFg) tutorial by FreeCodeCamp
