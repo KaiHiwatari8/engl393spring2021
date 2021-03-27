@@ -7,7 +7,7 @@
 
 If you manage or own a Discord guild with numerous members, you probably use bots to automate common functions such as custom welcome message, reaction roles, YouTube notifications, and much more. Even if you have enough funds, you would probably not want to spend them on having custom bots built for your guild. So, use existing bots? You can but you do not have to unless you do not have programming background. Nevertheless, you can learn to program for free on YouTube anytime. [FreeCodeCamp](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ) is what I would personally recommend.
 
-This tutorial will guide you to program a bot from scratch, add several paid features for free, and host it 24/7 for free.
+This tutorial will guide you to program a bot from scratch and add a paid feature for free.
 
 Wondering why you should learn to create a Discord bot?
 * **Custom bot branding**: <br>You can get rid of third-party bots that need you to vote for them to keep using their bot.
