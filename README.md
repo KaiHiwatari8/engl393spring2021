@@ -53,7 +53,7 @@ You will need to access Discord's Developer's portal to develop a bot. Do it wit
 
 <img src="images/2.png" height=400 class="center">
 
-	Now, you should be on the `General Information` page on the dashboard.
+Now, you should be on the `General Information` page on the dashboard.
 
 4. _Optional_: Give your app an icon and a description.
 
@@ -81,25 +81,25 @@ You will need to access Discord's Developer's portal to develop a bot. Do it wit
 	
 <img src="images/12.png" height=400 class="center">
 
-	Then, scroll and select one set of permissions from the following:
+Then, scroll and select one set of permissions from the following:
 
-	Either
+Either
 	
-	* Administrator
+* Administrator
 
 <img src="images/11.png" height=400 class="center">
 	
-	Or
+Or
 	
-	* Read Message History
+* Read Message History
 	
-	* Manage Roles
+* Manage Roles
 	
-	* View Channels
+* View Channels
 
 <img src="images/10.png" height=400 class="center">
 	
-	This will create an invitation link below the `scopes`. Click on this invitation link to invite the bot to your Discord guild.
+This will create an invitation link below the `scopes`. Click on this invitation link to invite the bot to your Discord guild.
 
   **Note:** If you want other people to add your bot to their servers, enable the `Public Bot` option.
 
