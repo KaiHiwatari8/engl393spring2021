@@ -47,26 +47,47 @@ You will need to access Discord's Developer's portal to develop a bot. Do it wit
 
 2. Click on `New Application` on the top right corner.
 
+<img src="images/1.png" height=400 class="center">
+
 3. Give your app a name, say Jarvis.
-<br>Now, you should be on the `General Information` page on the dashboard.
+
+<img src="images/2.png" height=400 class="center">
+
+	Now, you should be on the `General Information` page on the dashboard.
 
 4. _Optional_: Give your app an icon and a description.
 
 5. Click on `Bot` from the left pane.
 
+<img src="images/4.png" height=400 class="center">
+
 6. Click on `Add Bot`. When prompted to confirm, click on `Yes, do it!`.
+
+<img src="images/5.png" height=400 class="center">
+<br>
+<img src="images/6.png" height=400 class="center">
 
 7. Give your bot a username.
 
+<img src="images/7.png" height=400 class="center">
+
 8. _Optional_: Give your bot an icon to make it more attractive.
 
-9. Under the `Token`, clink `Copy` to copy the token to be used later.
+9.  Under the `Token`, clink `Copy` to copy the token to be used later.
 
-10. Go to `OAuth2` from the left pane. Under `Scopes`, check the `bot` scope. Then, scroll and select one set of permissions from the following:
+<img src="images/8.png" height=400 class="center">
+
+10.  Go to `OAuth2` from the left pane. Under `Scopes`, check the `bot` scope. 
+	
+<img src="images/12.png" height=400 class="center">
+
+	Then, scroll and select one set of permissions from the following:
 
 	Either
 	
 	* Administrator
+
+<img src="images/11.png" height=400 class="center">
 	
 	Or
 	
@@ -75,6 +96,8 @@ You will need to access Discord's Developer's portal to develop a bot. Do it wit
 	* Manage Roles
 	
 	* View Channels
+
+<img src="images/10.png" height=400 class="center">
 	
 	This will create an invitation link below the `scopes`. Click on this invitation link to invite the bot to your Discord guild.
 
@@ -88,15 +111,21 @@ Now that we created a bot application, we will program our bot to have it our de
 
   * Run `node -v` in terminal to confirm that `Node.js` has been installed successfully.
 
+<img src="images/14.png" height=300 class="center">
+
   * Run `npm -v` in terminal to confirm that `npm` has been installed successfully.
 
-2. Create an `npm` project.
+<img src="images/15.png" height=300 class="center">
+
+1. Create an `npm` project.
 
   * Open a specific directory in terminal where you would like develop your bot.
 
   * Run `npm init` to a initialize a JavaScript project.
 
 	Answer a series of questions to initialize your project. You can also keep pressing `enter` to accept the default values given in the parentheses.
+
+<img src="images/16.png" height=300 class="center">
 
 3. Install the `discord.js` framework. This framework provides libraries that helps to develop apps for Discord.
 
@@ -107,7 +136,11 @@ Now that we created a bot application, we will program our bot to have it our de
 
   * Go to `User Settings -> Appearance` in the Discord App.
 
+<img src="images/17.png" height=300 class="center">
+
   * Scroll down to locate `Developer Mode` under `ADVANCED` category and enable it.
+
+<img src="images/18.png" height=300 class="center">
 
 ### C. Program the bot
 
@@ -286,3 +319,13 @@ Wanna chit-chat about anything?
 * [Twitter](www.twitter.com/KaiHiwatari_8)
 
 * [Email me](maybejaycodes@hotmail.com)
+
+
+
+<style>
+.center{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
