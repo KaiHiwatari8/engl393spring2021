@@ -75,9 +75,11 @@ Now, you should be on the `General Information` page on the dashboard.
 
 9.  Under the `Token`, clink `Copy` to copy the token to be used later.
 
+	**CAUTION:** Do not publish this token publicly as people can misuse this token to tamper with your app.
+
 <img src="images/8.png" height=400 class="center">
 
-10.  Go to `OAuth2` from the left pane. Under `Scopes`, check the `bot` scope. 
+1.   Go to `OAuth2` from the left pane. Under `Scopes`, check the `bot` scope. 
 	
 <img src="images/12.png" height=400 class="center">
 
@@ -271,7 +273,6 @@ It is time to add the main feature of our bot, _Reaction Roles_. For this, the b
 	`node index.js`
 
 The final bot script should look something like this in this [file](index.js).
-
 
 ### Troubleshooting
 
