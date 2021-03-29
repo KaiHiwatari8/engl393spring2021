@@ -101,25 +101,25 @@ Now, you should be on the `General Information` page on the dashboard.
 	
 <img src="images/12.png" height=400 class="center">
 
-  **Note:** If you want other people to add your bot to their servers, enable the `Public Bot` option.
+  **Note:** If you want other people to add your bot to their servers, enable the `Public Bot` option in the `Bot` option on the left pane.
 
   <img src="images/13.png" height=400 class="center">
 
 ### B. Setup Development Environment
 
-Now that we created a bot application, we will program our bot to have it our desired function, reaction roles.
+Now that we have created a bot application, we will program our bot to have our desired function, reaction roles.
 
 1. Install `node.js` and `npm` package manager for JavaScript projects. `npm` is served in `Node.js` framework. Install `Node.js` from [here](https://nodejs.org/en/).
 
-  * Run `node -v` in terminal to confirm that `Node.js` has been installed successfully.
+  * Run `node -v` in a terminal to confirm that `Node.js` has been installed successfully.
 
 <img src="images/14.png" height=300 class="center">
 
-  * Run `npm -v` in terminal to confirm that `npm` has been installed successfully.
+  * Run `npm -v` in a terminal to confirm that `npm` has been installed successfully.
 
 <img src="images/15.png" height=300 class="center">
 
-1. Create an `npm` project.
+2. Create an `npm` project.
 
   * Open a specific directory in terminal where you would like develop your bot.
 
@@ -146,7 +146,7 @@ Now that we created a bot application, we will program our bot to have it our de
 
 ### C. Program the bot
 
-Now is the time to program out bot. In the `npm init` step, if you have `index.js` as `entry point`, then create a `index.js` file in the current directory. If you have chosen some other file, create a new `.js` with that name. Now, the tutorial will guide you line-by-line through the code, assuming the file is named `index.js`.
+Now is the time to program out bot. In the `npm init` step, if you have `index.js` as `entry point`, then create a `index.js` file in the same directory as you ran step 2 in. If you have chosen some other file, create a new `.js` with that name. Now, the tutorial will guide you line-by-line through the code, assuming the file is named `index.js`.
 
 1. Open `index.js` in a text editor.
 
@@ -158,7 +158,7 @@ Now is the time to program out bot. In the `npm init` step, if you have `index.j
 
 	`const bot = new Discord.Client()`
 
-Now that we have a bot initialized, we can add behaviors to our bot. Every action on Discord emits events such as a new message, a new reaction, a new guild member, etc. The bot listens to those events to reciprocate programmed behaviors. A complete list of events can be found [here](https://discord.js.org/#/docs/main/stable/class/Client).
+Now that we have a bot initialized, we can add behaviors to our bot. Every action on Discord emits events such as a new message, a new reaction, a new guild member, etc. The bot listens to those events to reciprocate them with the programmed behaviors. A complete list of events can be found [here](https://discord.js.org/#/docs/main/stable/class/Client).
 
 4. Add an event listener to our bot to listen to such events. For testing purpose, listen to a new message. If the new message contains `"ping"`, the bot will reply with `"pong"` in that channel using adding a handler function for that event.
 
@@ -186,7 +186,7 @@ You should see that the bot is now online in the Discord guild. Message `ping` o
 
 ### D. Add Reaction Role feature to the bot
 
-It is time to add the main feature of our bot, _Reaction Roles_. For this, the bot will listen to the reactions being added to a particular message in a channel of the server. All functions in `Discord.js` works with `Promises`. So, the code will use `then()` to nest callback functions.
+It is the time to add the main feature of our bot, _Reaction Roles_. For this, the bot will listen to the reactions being added to a particular message in a channel of the server. All functions in `Discord.js` works with `Promises`. So, the code will use `then()` to nest callback functions.
 
 1. Grasp the channel in which the message to be used for reaction roles is present.
 
