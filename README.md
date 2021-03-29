@@ -1,13 +1,13 @@
-# Create your own custom Discord Bot
+# Create your own custom Reaction Role Discord Bot
 
 <p align="center">
 <img src="https://discord.com/assets/bb408e0343ddedc0967f246f7e89cebf.svg" height=100 style="vertical-align: bottom"></p>
 
 ## Introduction
 
-If you manage or own a Discord guild with numerous members, you probably use bots to automate common functions such as custom welcome message, reaction roles, YouTube notifications, and much more. Even if you have enough funds, you would probably not want to spend them on having custom bots built for your guild. So, use existing bots? You can but you do not have to unless you do not have programming background. Nevertheless, you can learn to program for free on YouTube anytime. [FreeCodeCamp](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ) is what I would personally recommend.
+If you manage or own a Discord guild with numerous members, you probably use bots to automate common functions such as custom welcome message, reaction roles, YouTube notifications, and much more. Even if you have enough funds, you would probably not want to spend them on having custom bots built for your guild. So, is the solution to use existing bots? Maybe but you do not have to unless you do not have programming background. Nevertheless, you can learn to program for free on YouTube anytime. [FreeCodeCamp](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ) is what I would personally recommend.
 
-This tutorial will guide you to program a bot from scratch and add a paid feature for free.
+This tutorial will guide you to program a bot from scratch and add a paid feature, Reaction Roles, for free.
 
 Wondering why you should learn to create a Discord bot?
 * **Custom bot branding**: <br>You can get rid of third-party bots that need you to vote for them to keep using their bot.
@@ -24,7 +24,7 @@ Wondering why you should learn to create a Discord bot?
 
 ## Before you start
 
-Before you start, following are the resources assumed you have gathered before diving into instructions.
+Before you start, following are the resources assumed you have gathered before diving into the instructions.
 
 * **Text Editor**: <br>A text editor of your choice such as [Visual Studio Code](https://code.visualstudio.com/), [Sublime Text 3](https://www.sublimetext.com/), and [Atom](https://atom.io/).
 
@@ -73,37 +73,37 @@ Now, you should be on the `General Information` page on the dashboard.
 
 8. _Optional_: Give your bot an icon to make it more attractive.
 
-9.  Under the `Token`, clink `Copy` to copy the token to be used later.
+9.  Under the `Token`, click `Copy` to copy the token to be used later.
 
 	**CAUTION:** Do not publish this token publicly as people can misuse this token to tamper with your app.
 
 <img src="images/8.png" height=400 class="center">
 
-1.   Go to `OAuth2` from the left pane. Under `Scopes`, check the `bot` scope. 
+10. Go to `OAuth2` from the left pane. Scroll down and select one set of permissions from the following:
+
+	Either
+	
+    * Administrator
+
+	<img src="images/11.png" height=400 class="center">
+	
+	Or
+	
+    * Read Message History
+	
+    * Manage Roles
+	
+    * View Channels
+
+	<img src="images/10.png" height=400 class="center">
+
+11. Scroll up and check the `bot` scope under `Scopes`. This will create an invitation link below the `scopes`. Click on this invitation link to invite the bot to your Discord guild.
 	
 <img src="images/12.png" height=400 class="center">
 
-Then, scroll and select one set of permissions from the following:
-
-Either
-	
-* Administrator
-
-<img src="images/11.png" height=400 class="center">
-	
-Or
-	
-* Read Message History
-	
-* Manage Roles
-	
-* View Channels
-
-<img src="images/10.png" height=400 class="center">
-	
-This will create an invitation link below the `scopes`. Click on this invitation link to invite the bot to your Discord guild.
-
   **Note:** If you want other people to add your bot to their servers, enable the `Public Bot` option.
+
+  <img src="images/13.png" height=400 class="center">
 
 ### B. Setup Development Environment
 
