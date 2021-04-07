@@ -320,13 +320,3 @@ Wanna chit-chat about anything?
 * [Twitter](www.twitter.com/KaiHiwatari_8)
 
 * [Email me](maybejaycodes@hotmail.com)
-
-
-
-<style>
-.center{
-	display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
